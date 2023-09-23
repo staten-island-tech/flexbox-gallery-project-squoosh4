@@ -4,6 +4,38 @@ body, html, * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 
 }
 
+.card-head-text, .card-body-text {
+
+    color: #ffffff;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.card {
+
+    height: 50rem;
+    width: 40rem;
+    border: 0.5rem solid;
+    border-radius: 0.5rem;
+    border-color: rgb(182, 182, 182);
+
+}
+
+.card-img {
+
+    max-height: 60%;
+    max-width: 80%;
+    padding: 10%;
+
+}
