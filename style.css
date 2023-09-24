@@ -17,6 +17,8 @@ body, html, * {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: "Source Code Pro", monospace;
+    margin-left: 1px;
+    margin-right: 1px;
 
 }
 
@@ -27,6 +29,8 @@ body, html, * {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    margin-left: 1px;
+    margin-right: 1px;
 
 }
 
