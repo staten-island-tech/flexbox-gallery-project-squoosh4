@@ -31,6 +31,7 @@ body, html, * {
     padding-bottom: 1rem;
     margin-left: 1px;
     margin-right: 1px;
+    font-family: "Source Code Pro", monospace;
 
 }
 
@@ -47,7 +48,7 @@ body, html, * {
 .card {
 
     height: auto;
-    width: 20rem;
+    width: 30rem;
     border: 0.5rem solid;
     border-radius: 0.5rem;
     border-color: rgb(182, 182, 182);
