@@ -8,34 +8,85 @@ body, html, * {
 
 }
 
-.card-head-text, .card-body-text {
+.card-head-text {
 
     color: #ffffff;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.card-body-text {
+
+    color: #ffffff;
+    text-align: right;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 
 }
 
 .container {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
 .card {
 
-    height: 50rem;
+    height: auto;
     width: 40rem;
     border: 0.5rem solid;
     border-radius: 0.5rem;
     border-color: rgb(182, 182, 182);
+    margin-bottom: 3rem;
+    background-color: #000000;
+    color: #000000;
+    box-shadow: 7px 7px 7px #ffffff;
+
+}
+
+.card:hover {
+
+    border: 1rem solid;
+    border-radius: 1rem;
+    border-color: rgb(182, 182, 182);
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    scale: 110%;
+    rotate: 10deg;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-delay: 150ms;
+    transition-duration: 200ms;
+    box-shadow: 10px 10px 10px #ffffff;    
+
+}
+
+.card:not(:hover){
+
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-delay: 150ms;
+    transition-duration: 200ms;
 
 }
 
 .card-img {
 
-    max-height: 60%;
+    max-height: 40%;
     max-width: 80%;
     padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    justify-self: center;
+    display: block;
 
 }
