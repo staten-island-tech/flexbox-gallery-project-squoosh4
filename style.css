@@ -46,11 +46,15 @@ body, html, * {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    font-family: "Source Code Pro", monospace;
 
 }
 
-h1 {}
+h1 {    
+
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+
+}
 
 .card-head-text {
 
