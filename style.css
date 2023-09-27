@@ -1,3 +1,44 @@
+@keyframes card-slide{
+
+    0%   {
+            rotate:0deg;
+            position:relative;
+                top:3000px
+         }
+
+    25%  {
+             rotate:90deg;
+             position:relative;
+                top:2250px
+         }
+
+    50%  {
+             rotate:180deg;
+             position:relative;
+                top:1500px
+         }
+
+    75%  {
+             rotate:270deg;
+             position:relative;
+                top:750px
+         }
+
+    90%  {
+             rotate:400deg;
+             position:relative;
+                top:-200px
+         }
+
+    100% {
+             rotate:360deg;
+             position:relative;
+                top:0px
+         }
+
+}
+
+
 body, html, * {
 
     font-size: 10px;
@@ -5,8 +46,11 @@ body, html, * {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    font-family: "Source Code Pro", monospace;
 
 }
+
+h1 {}
 
 .card-head-text {
 
@@ -57,7 +101,9 @@ body, html, * {
     background-color: #000000;
     color: #000000;
     box-shadow: 7px 7px 7px #ffffff;
-    margin
+    animation-name: card-slide;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -68,7 +114,7 @@ body, html, * {
     scale: 110%;
     rotate: 10deg;
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition-delay: 150ms;
+    transition-delay: 100ms;
     transition-duration: 200ms;
     box-shadow: 10px 10px 10px;    
 
@@ -77,7 +123,7 @@ body, html, * {
 .card:not(:hover){
 
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition-delay: 150ms;
+    transition-delay: 100ms;
     transition-duration: 200ms;
 
 }
