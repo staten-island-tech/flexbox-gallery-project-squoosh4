@@ -1,39 +1,51 @@
 @keyframes card-slide{
 
     0%   {
-            rotate:0deg;
-            position:relative;
-                top:3000px
-         }
 
-    25%  {
-             rotate:90deg;
-             position:relative;
-                top:2250px
-         }
+             rotate: 0deg;
+             position: relative;
+                top: 2000px
 
-    50%  {
-             rotate:180deg;
-             position:relative;
-                top:1500px
-         }
-
-    75%  {
-             rotate:270deg;
-             position:relative;
-                top:750px
          }
 
     90%  {
-             rotate:400deg;
-             position:relative;
-                top:-200px
+
+             rotate: 370deg;
+             position: relative;
+                top: 000px
+        
+         }
+    
+    100% {
+             rotate: 365deg;
+             position: relative;
+                top: 000px;
          }
 
+}
+
+@keyframes title-slide{
+
+    0%   {
+
+             rotate: 0deg;
+             position: relative;
+                left: 2000px
+
+         }
+
+    90%  {
+
+             rotate: 2deg;
+             position: relative;
+                left: 000px
+        
+         }
+    
     100% {
-             rotate:360deg;
-             position:relative;
-                top:0px
+             rotate: 0deg;
+             position: relative;
+                left: 000px;
          }
 
 }
@@ -53,6 +65,12 @@ h1 {
 
     color: #ffffff;
     font-family: "Source Code Pro", monospace;
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+    animation-name: title-slide;
+    animation-duration: 1s;
+    
 
 }
 
@@ -95,6 +113,7 @@ h1 {
 
 .card {
 
+    rotate: 5deg;
     height: auto;
     width: 30rem;
     border: 0.5rem solid;
@@ -106,13 +125,14 @@ h1 {
     color: #000000;
     box-shadow: 7px 7px 7px #ffffff;
     animation-name: card-slide;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
 
 }
 
 .card:hover {
 
+    rotate: 360deg;
     border: 1rem solid;
     border-radius: 1rem;
     scale: 110%;
