@@ -8,7 +8,7 @@
 
          }
 
-    90%  {
+    60%  {
 
              rotate: 370deg;
              position: relative;
@@ -111,6 +111,8 @@ h1 {
     justify-content: space-around;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 
 }
 
@@ -128,7 +130,7 @@ h1 {
     color: #000000;
     box-shadow: 7px 7px 7px #ffffff;
     animation-name: card-slide;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
 
 }
