@@ -70,13 +70,14 @@ h1 {
     font-style: italic;
     animation-name: title-slide;
     animation-duration: 1s;
+    text-align: center;
     
 
 }
 
 .card-head-text {
 
-    color: #ffffff;
+    color: #000000;
     text-align: left;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -108,6 +109,8 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
 }
 
@@ -136,11 +139,11 @@ h1 {
     border: 1rem solid;
     border-radius: 1rem;
     scale: 110%;
-    rotate: 10deg;
+    rotate: -10deg;
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
     transition-delay: 100ms;
     transition-duration: 200ms;
-    box-shadow: 10px 10px 10px;    
+    box-shadow: 10px 10px 10px;
 
 }
 
@@ -162,6 +165,9 @@ h1 {
     padding-bottom: 2rem;
     justify-self: center;
     display: block;
+    border: 1rem solid;
+    border-radius: 1rem;
+    border-color: #000000;
 
 }
 
