@@ -8,43 +8,29 @@
 
          }
 
-    60%  {
-
-             rotate: 370deg;
-             position: relative;
-                top: 000px
-        
-         }
-    
     100% {
+            
              rotate: 365deg;
              position: relative;
                 top: 000px;
+            
          }
 
 }
 
 @keyframes title-slide{
 
-    0%   {
+    0% {
 
-             rotate: 0deg;
-             position: relative;
+            rotate: 0deg;
+            position: relative;
                 left: 2000px
 
-         }
-
-    90%  {
-
-             rotate: 2deg;
-             position: relative;
-                left: 000px
-        
-         }
+       }
     
     100% {
-             rotate: 0deg;
-             position: relative;
+            rotate: 0deg;
+            position: relative;
                 left: 000px;
          }
 
@@ -137,7 +123,6 @@ h1 {
 
 .card:hover {
 
-    rotate: 360deg;
     border: 1rem solid;
     border-radius: 1rem;
     scale: 110%;
@@ -254,6 +239,24 @@ h1 {
 
     border-color: #b6b6b6;
     box-shadow: 7px 7px 7px #b6b6b6;
+
+}
+
+
+@media screen (max-width:900px){
+
+    card:hover {
+
+        scale: 105%;
+        rotate: -7deg;
+    
+    }
+
+}
+
+@media screen {
+
+
 
 }
 
