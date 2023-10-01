@@ -243,7 +243,7 @@ h1 {
 }
 
 
-@media screen (max-width:900px){
+@media screen and (max-width:900px){
 
     card:hover {
 
