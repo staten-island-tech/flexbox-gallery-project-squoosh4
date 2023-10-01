@@ -247,16 +247,10 @@ h1 {
 
     card:hover {
 
-        scale: 105%;
-        rotate: -7deg;
+        scale: 103%;
+        rotate: -5deg;
     
     }
-
-}
-
-@media screen {
-
-
 
 }
 
