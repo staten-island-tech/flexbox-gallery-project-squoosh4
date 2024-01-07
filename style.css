@@ -12,7 +12,7 @@
             
              rotate: 365deg;
              position: relative;
-                top: 000px;
+                top: 0px;
             
          }
 
@@ -31,7 +31,7 @@
     100% {
             rotate: 0deg;
             position: relative;
-                left: 000px;
+                left: 0px;
          }
 
 }
